@@ -15,11 +15,11 @@ public class theEye : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if (Input.GetMouseButtonDown(1))
+		if (Input.GetMouseButtonDown(0))
 		{
             sprite.enabled = true;
             mask.enabled = true;
-		}else if (Input.GetMouseButtonDown(2))
+		}else if (Input.GetMouseButtonDown(1))
 		{
             sprite.enabled = false;
             mask.enabled = false;
